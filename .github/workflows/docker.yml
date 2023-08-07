@@ -15,4 +15,4 @@ jobs:
       run: |
         #sudo apt update
         echo "DevOps first CI/CD with github actions"
-        docker build . --file Dockerfile -t Bank-App:$(date)
+        docker build . --file Dockerfile -t bank-app:v1
