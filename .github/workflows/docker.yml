@@ -3,7 +3,7 @@ name: DevOps Session
 on: 
   push:
   #pull_request:
-    branches: "test"
+    branches: ["test"]
 
 jobs:
   Build_docker:
